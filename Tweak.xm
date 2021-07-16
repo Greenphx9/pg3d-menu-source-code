@@ -118,7 +118,7 @@ if([menu getSwitchOnForSwitch:@"Silent Aim"]){
 }	
 				
 	if([menu getSwitchOnForSwitch:@"Chat Spam"]) {
-			//ChatSpam(playermovec, il2cpp_string_new("[00FFFF[ff]] Hacked by [FF0000[ff]] Green16"), false, il2cpp_string_new("[00FFFF[ff]] Hacked by [FF0000[ff]] Green16"));
+			
 		}
 	if([menu getSwitchOnForSwitch:@"X-Ray Hack"]) {
 			XRay(playermovec, true);
