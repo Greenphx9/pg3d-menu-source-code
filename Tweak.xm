@@ -43,6 +43,7 @@ if(isMine)
 if([menu getSwitchOnForSwitch:@"Fly Hack"]) {
 			Fly(playermovec, true);
 		}
+		//why does weaponsounds lateupdate gotta stop working for me >:(
 void* weaponsounds = *(void **)[UIKeyPatch address:@"0x5B8" ptr:playermovec]; //一丏丘东丂丟丒万七
 if([menu getSwitchOnForSwitch:@"Silent Aim"]){
 			*(bool*)[UIKeyPatch address:@"0x149" ptr:weaponsounds] = true;  //isRoundMelee
